@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #000;
+
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    margin-top: 2%;
+}
+
+img {
+    width: 300px;
+    height: 80px;
+
+    margin-bottom: 2%;
+}
+
+.ctn-professores,
+.ctn-alunos1,
+.ctn-alunos2,
+.ctn-alunos3,
+.ctn-alunos4,
+.ctn-alunos5,
+.ctn-alunos6,
+.ctn-alunos7,
+.ctn-alunos8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 110%;
+
+    margin: 1.5% 0;
+
+    text-align: center;
+    
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(200, 0, 0);
+    font-size: 40px
+}
+
+h4 {
+    font-size: 16px;
+    margin: auto auto;
+}
+
+.prof,
+.aluno {
+    width: 12.5%;
+    height: 100%;
+    color: #ddd;
+    border: 2px solid white;
+}
+
+.prof img,
+.aluno img {
+    height: 75%;
+    width: 100%;
+    /* filter: invert(1); */
+}
+
+.prof h4 {
+    height: 20%;
+}
